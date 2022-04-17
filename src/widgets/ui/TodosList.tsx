@@ -18,7 +18,7 @@ export default function TodosList(): JSX.Element {
           key={todo.name}
           todo={todo}
           onToggle={() => {
-            dispatch(todoToggle(todo.id)); // TODO try to extract to feature
+            dispatch(todoToggle(todo.id));
           }}
         />
       ))}
